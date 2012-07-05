@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA864D1715A56F5B00D2A183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1615A56F5B00D2A183 /* UIKit.framework */; };
+		FA864D1915A56F5B00D2A183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1815A56F5B00D2A183 /* Foundation.framework */; };
+		FA864D1B15A56F5B00D2A183 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */; };
+		FA864D2115A56F5B00D2A183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA864D1F15A56F5B00D2A183 /* InfoPlist.strings */; };
+		FA864D2315A56F5B00D2A183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D2215A56F5B00D2A183 /* main.m */; };
+		FA864D2715A56F5B00D2A183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D2615A56F5B00D2A183 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA864D1215A56F5B00D2A183 /* Stiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA864D1615A56F5B00D2A183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA864D1815A56F5B00D2A183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA864D1E15A56F5B00D2A183 /* Stiri-Info.plist */ = {isa = PBXFileReference; path = "Stiri-Info.plist"; sourceTree = "<group>"; };
+		FA864D2015A56F5B00D2A183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA864D2215A56F5B00D2A183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA864D2415A56F5B00D2A183 /* Stiri-Prefix.pch */ = {isa = PBXFileReference; path = "Stiri-Prefix.pch"; sourceTree = "<group>"; };
+		FA864D2515A56F5B00D2A183 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA864D2615A56F5B00D2A183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA864D0F15A56F5B00D2A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA864D1715A56F5B00D2A183 /* UIKit.framework in Frameworks */,
+				FA864D1915A56F5B00D2A183 /* Foundation.framework in Frameworks */,
+				FA864D1B15A56F5B00D2A183 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA864D0715A56F5B00D2A183 = {
+			isa = PBXGroup;
+			children = (
+				FA864D1C15A56F5B00D2A183 /* Stiri */,
+				FA864D1515A56F5B00D2A183 /* Frameworks */,
+				FA864D1315A56F5B00D2A183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA864D1315A56F5B00D2A183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA864D1215A56F5B00D2A183 /* Stiri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA864D1515A56F5B00D2A183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA864D1615A56F5B00D2A183 /* UIKit.framework */,
+				FA864D1815A56F5B00D2A183 /* Foundation.framework */,
+				FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA864D1C15A56F5B00D2A183 /* Stiri */ = {
+			isa = PBXGroup;
+			children = (
+				FA864D2515A56F5B00D2A183 /* AppDelegate.h */,
+				FA864D2615A56F5B00D2A183 /* AppDelegate.m */,
+				FA864D1D15A56F5B00D2A183 /* Supporting Files */,
+			);
+			path = Stiri;
+			sourceTree = "<group>";
+		};
+		FA864D1D15A56F5B00D2A183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA864D1E15A56F5B00D2A183 /* Stiri-Info.plist */,
+				FA864D1F15A56F5B00D2A183 /* InfoPlist.strings */,
+				FA864D2215A56F5B00D2A183 /* main.m */,
+				FA864D2415A56F5B00D2A183 /* Stiri-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA864D1115A56F5B00D2A183 /* Stiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA864D2A15A56F5B00D2A183 /* Build configuration list for PBXNativeTarget "Stiri" */;
+			buildPhases = (
+				FA864D0E15A56F5B00D2A183 /* Sources */,
+				FA864D0F15A56F5B00D2A183 /* Frameworks */,
+				FA864D1015A56F5B00D2A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stiri;
+			productName = Stiri;
+			productReference = FA864D1215A56F5B00D2A183 /* Stiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA864D0915A56F5B00D2A183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FA864D0C15A56F5B00D2A183 /* Build configuration list for PBXProject "Stiri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA864D0715A56F5B00D2A183;
+			productRefGroup = FA864D1315A56F5B00D2A183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA864D1115A56F5B00D2A183 /* Stiri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA864D1015A56F5B00D2A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA864D2115A56F5B00D2A183 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA864D0E15A56F5B00D2A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA864D2315A56F5B00D2A183 /* main.m in Sources */,
+				FA864D2715A56F5B00D2A183 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA864D1F15A56F5B00D2A183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA864D2015A56F5B00D2A183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA864D2815A56F5B00D2A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA864D2915A56F5B00D2A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA864D2B15A56F5B00D2A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
+				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA864D2C15A56F5B00D2A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
+				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA864D0C15A56F5B00D2A183 /* Build configuration list for PBXProject "Stiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA864D2815A56F5B00D2A183 /* Debug */,
+				FA864D2915A56F5B00D2A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA864D2A15A56F5B00D2A183 /* Build configuration list for PBXNativeTarget "Stiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA864D2B15A56F5B00D2A183 /* Debug */,
+				FA864D2C15A56F5B00D2A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA864D0915A56F5B00D2A183 /* Project object */;
+}
