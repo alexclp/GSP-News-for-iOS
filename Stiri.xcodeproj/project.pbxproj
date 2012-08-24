@@ -7,25 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6EAB1E815A7265700BAA0B6 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1D015A7265700BAA0B6 /* Facebook.m */; };
+		E6EAB1E915A7265700BAA0B6 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6EAB1D215A7265700BAA0B6 /* FBDialog.bundle */; };
+		E6EAB1EA15A7265700BAA0B6 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1D415A7265700BAA0B6 /* FBDialog.m */; };
+		E6EAB1EB15A7265700BAA0B6 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1D615A7265700BAA0B6 /* FBLoginDialog.m */; };
+		E6EAB1EC15A7265700BAA0B6 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1D815A7265700BAA0B6 /* FBRequest.m */; };
+		E6EAB1ED15A7265700BAA0B6 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1DC15A7265700BAA0B6 /* NSObject+SBJSON.m */; };
+		E6EAB1EE15A7265700BAA0B6 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1DE15A7265700BAA0B6 /* NSString+SBJSON.m */; };
+		E6EAB1EF15A7265700BAA0B6 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1E015A7265700BAA0B6 /* SBJSON.m */; };
+		E6EAB1F015A7265700BAA0B6 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1E215A7265700BAA0B6 /* SBJsonBase.m */; };
+		E6EAB1F115A7265700BAA0B6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1E415A7265700BAA0B6 /* SBJsonParser.m */; };
+		E6EAB1F215A7265700BAA0B6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1E615A7265700BAA0B6 /* SBJsonWriter.m */; };
+		E6EAB1F315A7265700BAA0B6 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = E6EAB1E715A7265700BAA0B6 /* README.mdown */; };
+		E6EAB1F615A72B2A00BAA0B6 /* Facebook+ForceDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1F515A72B2A00BAA0B6 /* Facebook+ForceDialog.m */; };
+		E6EAB1F915A72B3400BAA0B6 /* FacebookLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAB1F815A72B3400BAA0B6 /* FacebookLikeView.m */; };
+		E6EAB1FB15A72F1A00BAA0B6 /* FacebookLikeView.html in Resources */ = {isa = PBXBuildFile; fileRef = E6EAB1FA15A72F1900BAA0B6 /* FacebookLikeView.html */; };
+		FA4D6A5115AD583000E136B3 /* thumb2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4D6A5015AD583000E136B3 /* thumb2.png */; };
 		FA864D1715A56F5B00D2A183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1615A56F5B00D2A183 /* UIKit.framework */; };
 		FA864D1915A56F5B00D2A183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1815A56F5B00D2A183 /* Foundation.framework */; };
 		FA864D1B15A56F5B00D2A183 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */; };
 		FA864D2115A56F5B00D2A183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA864D1F15A56F5B00D2A183 /* InfoPlist.strings */; };
 		FA864D2315A56F5B00D2A183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D2215A56F5B00D2A183 /* main.m */; };
 		FA864D2715A56F5B00D2A183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D2615A56F5B00D2A183 /* AppDelegate.m */; };
+		FA864D3015A56F9500D2A183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D2E15A56F9500D2A183 /* ViewController.m */; };
+		FA864D3715A57BEF00D2A183 /* Stire.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D3615A57BEF00D2A183 /* Stire.m */; };
+		FA864D4315A5819100D2A183 /* StireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D4115A5819100D2A183 /* StireViewController.m */; };
+		FA864D4415A5819100D2A183 /* StireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA864D4215A5819100D2A183 /* StireViewController.xib */; };
+		FA9EADF415A5A3E700E2F255 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FA864D4615A595FF00D2A183 /* SMXMLDocument.m */; };
+		FAE7210815A6B866008741E6 /* redwhite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE7210715A6B866008741E6 /* redwhite.jpg */; };
+		FAE7210B15A6BE89008741E6 /* soccer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE7210A15A6BE89008741E6 /* soccer.jpg */; };
+		FAE7211115A6CDB6008741E6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE7211015A6CDB6008741E6 /* Reachability.m */; };
+		FAE7211315A6CE85008741E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */; };
+		FAE7211515A6CEB6008741E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */; };
+		FAE7211F15A7154B008741E6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE7211E15A7154B008741E6 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6EAB1CF15A7265700BAA0B6 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		E6EAB1D015A7265700BAA0B6 /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		E6EAB1D115A7265700BAA0B6 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		E6EAB1D215A7265700BAA0B6 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		E6EAB1D315A7265700BAA0B6 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		E6EAB1D415A7265700BAA0B6 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		E6EAB1D515A7265700BAA0B6 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		E6EAB1D615A7265700BAA0B6 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		E6EAB1D715A7265700BAA0B6 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		E6EAB1D815A7265700BAA0B6 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		E6EAB1DA15A7265700BAA0B6 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		E6EAB1DB15A7265700BAA0B6 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		E6EAB1DC15A7265700BAA0B6 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		E6EAB1DD15A7265700BAA0B6 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		E6EAB1DE15A7265700BAA0B6 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		E6EAB1DF15A7265700BAA0B6 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		E6EAB1E015A7265700BAA0B6 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		E6EAB1E115A7265700BAA0B6 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		E6EAB1E215A7265700BAA0B6 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		E6EAB1E315A7265700BAA0B6 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E6EAB1E415A7265700BAA0B6 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E6EAB1E515A7265700BAA0B6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E6EAB1E615A7265700BAA0B6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E6EAB1E715A7265700BAA0B6 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		E6EAB1F515A72B2A00BAA0B6 /* Facebook+ForceDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+ForceDialog.m"; sourceTree = "<group>"; };
+		E6EAB1F715A72B3400BAA0B6 /* FacebookLikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookLikeView.h; sourceTree = "<group>"; };
+		E6EAB1F815A72B3400BAA0B6 /* FacebookLikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookLikeView.m; sourceTree = "<group>"; };
+		E6EAB1FA15A72F1900BAA0B6 /* FacebookLikeView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FacebookLikeView.html; sourceTree = "<group>"; };
+		FA4D6A5015AD583000E136B3 /* thumb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb2.png; sourceTree = "<group>"; };
 		FA864D1215A56F5B00D2A183 /* Stiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA864D1615A56F5B00D2A183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA864D1815A56F5B00D2A183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FA864D1E15A56F5B00D2A183 /* Stiri-Info.plist */ = {isa = PBXFileReference; path = "Stiri-Info.plist"; sourceTree = "<group>"; };
+		FA864D1E15A56F5B00D2A183 /* Stiri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stiri-Info.plist"; sourceTree = "<group>"; };
 		FA864D2015A56F5B00D2A183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA864D2215A56F5B00D2A183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA864D2415A56F5B00D2A183 /* Stiri-Prefix.pch */ = {isa = PBXFileReference; path = "Stiri-Prefix.pch"; sourceTree = "<group>"; };
-		FA864D2515A56F5B00D2A183 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA864D2415A56F5B00D2A183 /* Stiri-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stiri-Prefix.pch"; sourceTree = "<group>"; };
+		FA864D2515A56F5B00D2A183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA864D2615A56F5B00D2A183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA864D2D15A56F9500D2A183 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		FA864D2E15A56F9500D2A183 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		FA864D3515A57BEF00D2A183 /* Stire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stire.h; sourceTree = "<group>"; };
+		FA864D3615A57BEF00D2A183 /* Stire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stire.m; sourceTree = "<group>"; };
+		FA864D4015A5819100D2A183 /* StireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StireViewController.h; path = ../StireViewController.h; sourceTree = "<group>"; };
+		FA864D4115A5819100D2A183 /* StireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StireViewController.m; path = ../StireViewController.m; sourceTree = "<group>"; };
+		FA864D4215A5819100D2A183 /* StireViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StireViewController.xib; path = ../StireViewController.xib; sourceTree = "<group>"; };
+		FA864D4515A595FF00D2A183 /* SMXMLDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		FA864D4615A595FF00D2A183 /* SMXMLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		FAE7210715A6B866008741E6 /* redwhite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redwhite.jpg; sourceTree = "<group>"; };
+		FAE7210A15A6BE89008741E6 /* soccer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soccer.jpg; sourceTree = "<group>"; };
+		FAE7210F15A6CDB6008741E6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
+		FAE7211015A6CDB6008741E6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FAE7211E15A7154B008741E6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE7211515A6CEB6008741E6 /* CoreFoundation.framework in Frameworks */,
+				FAE7211315A6CE85008741E6 /* SystemConfiguration.framework in Frameworks */,
 				FA864D1715A56F5B00D2A183 /* UIKit.framework in Frameworks */,
 				FA864D1915A56F5B00D2A183 /* Foundation.framework in Frameworks */,
 				FA864D1B15A56F5B00D2A183 /* CoreGraphics.framework in Frameworks */,
@@ -42,9 +116,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6EAB1CE15A7265700BAA0B6 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAB1CF15A7265700BAA0B6 /* Facebook.h */,
+				E6EAB1D015A7265700BAA0B6 /* Facebook.m */,
+				E6EAB1D115A7265700BAA0B6 /* FBConnect.h */,
+				E6EAB1D215A7265700BAA0B6 /* FBDialog.bundle */,
+				E6EAB1D315A7265700BAA0B6 /* FBDialog.h */,
+				E6EAB1D415A7265700BAA0B6 /* FBDialog.m */,
+				E6EAB1D515A7265700BAA0B6 /* FBLoginDialog.h */,
+				E6EAB1D615A7265700BAA0B6 /* FBLoginDialog.m */,
+				E6EAB1D715A7265700BAA0B6 /* FBRequest.h */,
+				E6EAB1D815A7265700BAA0B6 /* FBRequest.m */,
+				E6EAB1D915A7265700BAA0B6 /* JSON */,
+				E6EAB1E715A7265700BAA0B6 /* README.mdown */,
+			);
+			path = FBConnect;
+			sourceTree = "<group>";
+		};
+		E6EAB1D915A7265700BAA0B6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAB1DA15A7265700BAA0B6 /* JSON.h */,
+				E6EAB1DB15A7265700BAA0B6 /* NSObject+SBJSON.h */,
+				E6EAB1DC15A7265700BAA0B6 /* NSObject+SBJSON.m */,
+				E6EAB1DD15A7265700BAA0B6 /* NSString+SBJSON.h */,
+				E6EAB1DE15A7265700BAA0B6 /* NSString+SBJSON.m */,
+				E6EAB1DF15A7265700BAA0B6 /* SBJSON.h */,
+				E6EAB1E015A7265700BAA0B6 /* SBJSON.m */,
+				E6EAB1E115A7265700BAA0B6 /* SBJsonBase.h */,
+				E6EAB1E215A7265700BAA0B6 /* SBJsonBase.m */,
+				E6EAB1E315A7265700BAA0B6 /* SBJsonParser.h */,
+				E6EAB1E415A7265700BAA0B6 /* SBJsonParser.m */,
+				E6EAB1E515A7265700BAA0B6 /* SBJsonWriter.h */,
+				E6EAB1E615A7265700BAA0B6 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		FA864D0715A56F5B00D2A183 = {
 			isa = PBXGroup;
 			children = (
+				FA4D6A5015AD583000E136B3 /* thumb2.png */,
+				FAE7210715A6B866008741E6 /* redwhite.jpg */,
+				FAE7210A15A6BE89008741E6 /* soccer.jpg */,
+				E6EAB1F715A72B3400BAA0B6 /* FacebookLikeView.h */,
+				E6EAB1F815A72B3400BAA0B6 /* FacebookLikeView.m */,
+				E6EAB1F515A72B2A00BAA0B6 /* Facebook+ForceDialog.m */,
+				E6EAB1CE15A7265700BAA0B6 /* FBConnect */,
 				FA864D1C15A56F5B00D2A183 /* Stiri */,
 				FA864D1515A56F5B00D2A183 /* Frameworks */,
 				FA864D1315A56F5B00D2A183 /* Products */,
@@ -62,6 +182,8 @@
 		FA864D1515A56F5B00D2A183 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */,
+				FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */,
 				FA864D1615A56F5B00D2A183 /* UIKit.framework */,
 				FA864D1815A56F5B00D2A183 /* Foundation.framework */,
 				FA864D1A15A56F5B00D2A183 /* CoreGraphics.framework */,
@@ -72,8 +194,20 @@
 		FA864D1C15A56F5B00D2A183 /* Stiri */ = {
 			isa = PBXGroup;
 			children = (
+				FAE7210F15A6CDB6008741E6 /* Reachability.h */,
+				FAE7211015A6CDB6008741E6 /* Reachability.m */,
+				FA864D4515A595FF00D2A183 /* SMXMLDocument.h */,
+				FA864D4615A595FF00D2A183 /* SMXMLDocument.m */,
 				FA864D2515A56F5B00D2A183 /* AppDelegate.h */,
 				FA864D2615A56F5B00D2A183 /* AppDelegate.m */,
+				FA864D2D15A56F9500D2A183 /* ViewController.h */,
+				FA864D2E15A56F9500D2A183 /* ViewController.m */,
+				FAE7211E15A7154B008741E6 /* ViewController.xib */,
+				FA864D3515A57BEF00D2A183 /* Stire.h */,
+				FA864D3615A57BEF00D2A183 /* Stire.m */,
+				FA864D4015A5819100D2A183 /* StireViewController.h */,
+				FA864D4115A5819100D2A183 /* StireViewController.m */,
+				FA864D4215A5819100D2A183 /* StireViewController.xib */,
 				FA864D1D15A56F5B00D2A183 /* Supporting Files */,
 			);
 			path = Stiri;
@@ -85,6 +219,7 @@
 				FA864D1E15A56F5B00D2A183 /* Stiri-Info.plist */,
 				FA864D1F15A56F5B00D2A183 /* InfoPlist.strings */,
 				FA864D2215A56F5B00D2A183 /* main.m */,
+				E6EAB1FA15A72F1900BAA0B6 /* FacebookLikeView.html */,
 				FA864D2415A56F5B00D2A183 /* Stiri-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -141,6 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA864D2115A56F5B00D2A183 /* InfoPlist.strings in Resources */,
+				FA864D4415A5819100D2A183 /* StireViewController.xib in Resources */,
+				FAE7210815A6B866008741E6 /* redwhite.jpg in Resources */,
+				FAE7210B15A6BE89008741E6 /* soccer.jpg in Resources */,
+				FAE7211F15A7154B008741E6 /* ViewController.xib in Resources */,
+				E6EAB1E915A7265700BAA0B6 /* FBDialog.bundle in Resources */,
+				E6EAB1F315A7265700BAA0B6 /* README.mdown in Resources */,
+				E6EAB1FB15A72F1A00BAA0B6 /* FacebookLikeView.html in Resources */,
+				FA4D6A5115AD583000E136B3 /* thumb2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +294,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9EADF415A5A3E700E2F255 /* SMXMLDocument.m in Sources */,
 				FA864D2315A56F5B00D2A183 /* main.m in Sources */,
 				FA864D2715A56F5B00D2A183 /* AppDelegate.m in Sources */,
+				FA864D3015A56F9500D2A183 /* ViewController.m in Sources */,
+				FA864D3715A57BEF00D2A183 /* Stire.m in Sources */,
+				FA864D4315A5819100D2A183 /* StireViewController.m in Sources */,
+				FAE7211115A6CDB6008741E6 /* Reachability.m in Sources */,
+				E6EAB1E815A7265700BAA0B6 /* Facebook.m in Sources */,
+				E6EAB1EA15A7265700BAA0B6 /* FBDialog.m in Sources */,
+				E6EAB1EB15A7265700BAA0B6 /* FBLoginDialog.m in Sources */,
+				E6EAB1EC15A7265700BAA0B6 /* FBRequest.m in Sources */,
+				E6EAB1ED15A7265700BAA0B6 /* NSObject+SBJSON.m in Sources */,
+				E6EAB1EE15A7265700BAA0B6 /* NSString+SBJSON.m in Sources */,
+				E6EAB1EF15A7265700BAA0B6 /* SBJSON.m in Sources */,
+				E6EAB1F015A7265700BAA0B6 /* SBJsonBase.m in Sources */,
+				E6EAB1F115A7265700BAA0B6 /* SBJsonParser.m in Sources */,
+				E6EAB1F215A7265700BAA0B6 /* SBJsonWriter.m in Sources */,
+				E6EAB1F615A72B2A00BAA0B6 /* Facebook+ForceDialog.m in Sources */,
+				E6EAB1F915A72B3400BAA0B6 /* FacebookLikeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
 				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -230,7 +392,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
 				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -254,6 +418,7 @@
 				FA864D2C15A56F5B00D2A183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

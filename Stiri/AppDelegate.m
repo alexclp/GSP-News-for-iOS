@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -18,11 +19,34 @@
     [super dealloc];
 }
 
+#define SavedHTTPCookiesKey @"SavedHTTPCookies"
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [application setStatusBarHidden:YES];
+    
+    ///Facebook
+    //Restore cookies
+    NSData *cookiesData = [[NSUserDefaults standardUserDefaults] objectForKey:SavedHTTPCookiesKey];
+    if (cookiesData) {
+        NSArray *cookies = [NSKeyedUnarchiver unarchiveObjectWithData:cookiesData];
+        for (NSHTTPCookie *cookie in cookies)
+            [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
+    }
+    ///
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UIColor *color = [UIColor colorWithRed:230 green:44/256.0 blue:44/256.0 alpha:1];
+    ViewController *vc = [[ViewController alloc] init];
+    vc.trebuieDescarcat = TRUE;
+    UINavigationController *nvc = [[UINavigationController alloc] init];
+    [nvc.navigationBar setTintColor:color];
+    [nvc pushViewController:vc animated:NO];
+    [self.window addSubview:nvc.view];
+    
+    [vc release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -37,6 +61,11 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    // Save cookies
+    NSData *cookiesData = [NSKeyedArchiver archivedDataWithRootObject:[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]];
+    [[NSUserDefaults standardUserDefaults] setObject:cookiesData
+                                              forKey:SavedHTTPCookiesKey];
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
