@@ -40,6 +40,9 @@
 		FAE7211315A6CE85008741E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */; };
 		FAE7211515A6CEB6008741E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */; };
 		FAE7211F15A7154B008741E6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE7211E15A7154B008741E6 /* ViewController.xib */; };
+		FAED3F8317D52797009984C7 /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAED3F8217D52797009984C7 /* NewRelicAgent.framework */; };
+		FAED3F8517D527B7009984C7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAED3F8417D527B7009984C7 /* CoreTelephony.framework */; };
+		FAED3F8717D527D0009984C7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAED3F8617D527CF009984C7 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +101,9 @@
 		FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		FAE7211E15A7154B008741E6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FAED3F8217D52797009984C7 /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NewRelicAgent.framework; sourceTree = "<group>"; };
+		FAED3F8417D527B7009984C7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FAED3F8617D527CF009984C7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +111,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAED3F8717D527D0009984C7 /* libz.dylib in Frameworks */,
+				FAED3F8517D527B7009984C7 /* CoreTelephony.framework in Frameworks */,
 				FAE7211515A6CEB6008741E6 /* CoreFoundation.framework in Frameworks */,
 				FAE7211315A6CE85008741E6 /* SystemConfiguration.framework in Frameworks */,
 				FA864D1715A56F5B00D2A183 /* UIKit.framework in Frameworks */,
 				FA864D1915A56F5B00D2A183 /* Foundation.framework in Frameworks */,
 				FA864D1B15A56F5B00D2A183 /* CoreGraphics.framework in Frameworks */,
+				FAED3F8317D52797009984C7 /* NewRelicAgent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +191,9 @@
 		FA864D1515A56F5B00D2A183 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAED3F8617D527CF009984C7 /* libz.dylib */,
+				FAED3F8417D527B7009984C7 /* CoreTelephony.framework */,
+				FAED3F8217D52797009984C7 /* NewRelicAgent.framework */,
 				FAE7211415A6CEB6008741E6 /* CoreFoundation.framework */,
 				FAE7211215A6CE85008741E6 /* SystemConfiguration.framework */,
 				FA864D1615A56F5B00D2A183 /* UIKit.framework */,
@@ -376,6 +388,10 @@
 		FA864D2B15A56F5B00D2A183 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
 				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";
@@ -389,6 +405,10 @@
 		FA864D2C15A56F5B00D2A183 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stiri/Stiri-Prefix.pch";
 				INFOPLIST_FILE = "Stiri/Stiri-Info.plist";

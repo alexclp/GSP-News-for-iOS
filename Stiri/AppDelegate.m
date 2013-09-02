@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <NewRelicAgent/NewRelicAgent.h>
 
 @implementation AppDelegate
 
@@ -26,6 +27,8 @@
 {
     [application setStatusBarHidden:YES];
     
+	[NewRelicAgent startWithApplicationToken:@"AA480b6165a5b119ed22302e6a1a2aa01cb29d06ff"];
+	
     ///Facebook
     //Restore cookies
     NSData *cookiesData = [[NSUserDefaults standardUserDefaults] objectForKey:SavedHTTPCookiesKey];
